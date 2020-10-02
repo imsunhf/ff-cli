@@ -1,0 +1,20 @@
+{
+  "name": "ff-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ff": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imsunhf <imsunhf@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^5.1.0",
+    "prompts": "^2.3.2"
+  }
+}
