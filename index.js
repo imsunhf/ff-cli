@@ -8,7 +8,7 @@ const ora = require('ora')
 const address = 'github.com:imsunhf/ff-template#master'
 
 // 修改package.json 文件
-const updateFile = ({projectName, version='0.01'}) => {
+const updateFile = ({projectName, version='0.0.1'}) => {
   fs.readFile(`${process.cwd()}/${projectName}/package.json`,(err, data) => {
     if (err){
       throw err
